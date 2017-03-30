@@ -2,7 +2,15 @@
 
 This software was downloaded from http://www.fil.ion.ucl.ac.uk/spm/software/spm12/ -- if you're not cloning this repo for use in the SAN lab, please go there to register and download the software so that the Wellcome Trust Centre for Neuroimaging can track use. 
 
-We have modified this software to fix a bug reported on the SPM mailing list.
+We have modified this software to fix a bug [reported](https://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=spm;2c0ae193.1611) on the SPM mailing list.
+
+## Toolbox additions
+* [Masking toolbox](http://www0.cs.ucl.ac.uk/staff/g.ridgway/masking/)
+
+## Other additions
+* [spmbatch.m](https://github.com/aimfeld/Neurotools/blob/master/spmbatch.m)
+
+```
 %   ___  ____  __  __
 %  / __)(  _ \(  \/  )  
 %  \__ \ )___/ )    (   Statistical Parametric Mapping
@@ -147,3 +155,4 @@ We have modified this software to fix a bug reported on the SPM mailing list.
 % % Copyright (C) 1991,1994-2016 Wellcome Trust Centre for Neuroimaging
 % 
 % $Id: README.txt 6660 2016-01-06 17:49:19Z guillaume $
+```
