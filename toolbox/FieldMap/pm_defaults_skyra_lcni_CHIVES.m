@@ -51,8 +51,13 @@ pm_def.MFLAGS.GRAPHICS = 0; % Don't display segmentation results
 
 % Defaults for converting field map to voxel displacement map.
 %==========================================================================
+<<<<<<< HEAD
 pm_def.EPI_BASED_FIELDMAPS = 1;         % EPI=1, other=0.
 pm_def.K_SPACE_TRAVERSAL_BLIP_DIR = 1;  % +ve k-space = 1, -ve = -1. This was tested by KJ February 2017
+=======
+pm_def.EPI_BASED_FIELDMAPS = 0;         % EPI=1, other=0. 
+pm_def.K_SPACE_TRAVERSAL_BLIP_DIR = -1;  % +ve k-space = 1, -ve = -1. This was tested by DC July 2017
+>>>>>>> 1886de6d037d91db16fc6122c3a0d19ed555d4b1
 pm_def.TOTAL_EPI_READOUT_TIME = 34.84;  % Skyra EPI RO time for CHIVES with GRAPPA (in ms)
 
 % Defaults for Unwarping.
